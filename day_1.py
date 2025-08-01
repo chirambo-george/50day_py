@@ -11,9 +11,9 @@ def divide_or_square(num):
     if num >= 5:
         num_sqrt = sqrt(num)
     
-    else:
-        not_divisible = print(f"{num} is not divisible by 5")  
-
+    elif num < 5:
+        num_sqrt = print(f"{num} is not divisible by 5")  
+        
     print(num_sqrt)
 
 divide_or_square(num = int(input("Put in your number: ")))
