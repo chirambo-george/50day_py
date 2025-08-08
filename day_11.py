@@ -1,19 +1,22 @@
-# Day 11: Are They Equal?
-# Write a function called equal_strings. The function takes two
-# strings as arguments and compares them. If the strings are equal
-# (if they have the same characters and have equal length), it
-# should return True, if they are not, it should return False. For
-# example, ‘love’ and ‘evol’ should return True.
-
-def equal_strings(str1, str2):
-    pass
+# Day 12: Count the Dots
+# Write a function called count_dots. This function takes a
+# string separated by dots as a parameter and counts how many
+# dots are in the string. For example, ‘h.e.l.p.’ should return 4
+# dots, and ‘he.lp.’ should return 2 dots.
 
 
-a = input("Enter String: ")
-b = input("Enter String: ")
+dot_str = input("Enter String: ")
 
-if a == b:
-    print("Equal")
-    
-else:
-    print("Not Equal")
+
+count__ = []
+count__.append(dot_str)
+
+
+str_str = dot_str.split()
+
+print(str_str)
+
+
+# print(str_count.count('.'))
+
+# email.split('@')[0]
